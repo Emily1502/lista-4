@@ -1,0 +1,70 @@
+<meta charset="UTF-8" />
+<script>
+    /*
+    Peça para o usuário informar o valor do terreno que deseja comprar. Peça também para ele informar em quantos anos pagará o financiamento do terreno.
+    Considere que:
+    Se o número de anos for até 5 (inclusive), haverá um desconto de 5% aplicado no valor do financiamento.
+    Se o número de anos for até 10 (inclusive), haverá um acréscimo de 15% aplicado no valor do financiamento.
+    Se o número de anos for acima de 10, haverá um acréscimo de 30%.
+    Apresente o valor final a ser pago pelo terreno, considerando o desconto ou acréscimo especificado para a quantidade de anos de financiamento.
+    */
+
+    // Entrada de dados
+    let valorTerreno = parseFloat(prompt("Informe o valor do terreno (em R$):"));
+let anos = parseInt(prompt("Em quantos anos você pagará o financiamento?"));
+
+    // Processamento
+function calcularValorFinal(valorTerreno, anos) let mensagem;
+
+switch (assunto.toUpperCase()) {
+    case "VO":
+        mensagem = "1º Tri";
+        break;
+    case "ED":
+        mensagem = "2º Tri";
+        break;
+    case "RE":
+        mensagem = "3º Tri";
+        break;
+    default:
+        mensagem = "Assunto não reconhecido.";
+}
+
+alert(mensagem);let mensagem;
+
+switch (assunto.toUpperCase()) {
+    case "VO":
+        mensagem = "1º Tri";
+        break;
+    case "ED":
+        mensagem = "2º Tri";
+        break;
+    case "RE":
+        mensagem = "3º Tri";
+        break;
+    default:
+        mensagem = "Assunto não reconhecido.";
+}
+
+alert(mensagem);
+    let valorFinal;
+
+    if (anos <= 5) {
+        valorFinal = valorTerreno * 0.95; 
+    } else if (anos <= 10) {
+        valorFinal = valorTerreno * 1.15; 
+    } else {
+        valorFinal = valorTerreno * 1.30; 
+    }
+
+    
+    // Saída de dados
+    if (isNaN(valorTerreno) || valorTerreno <= 0 || isNaN(anos) || anos <= 0) {
+    alert("Por favor, insira valores válidos para o terreno e o número de anos.");
+} else {
+    const valorFinal = calcularValorFinal(valorTerreno, anos);
+    alert(`O valor final a ser pago pelo terreno será R$ ${valorFinal}.`);
+}
+    
+
+</script>
